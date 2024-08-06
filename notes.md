@@ -16,6 +16,17 @@ Let's start codeing!
            - eslint
            - pritier
 
+- Connect to the db
+    - go to the .env file and filed properly values ex
+    "
+        DB_CONNECTION= mariadb
+        DB_HOST= 27.0.0.1
+        DB_PORT= 3306
+        DB_DATABASE= db_name
+        DB_USERNAME= root
+        DB_PASSWORD= secret
+    ""
+
 Now is time to setup the API at the backend. Open the laravel project & 
 
 <!-- Sources -->
