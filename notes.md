@@ -26,6 +26,16 @@ Let's start codeing!
         DB_USERNAME= root
         DB_PASSWORD= secret
     ""
+- Prepare credentials for Pusher
+`
+PUSHER_APP_ID= 
+PUSHER_APP_KWY=
+PUSHER_APP_SECRET=
+PUSHER_HOST=
+PUSHER_PORT=433
+PUSHER_SCHEME=https
+PUSHER_APP_CLOUSTER=mt1
+`
 
 Now is time to setup the API at the backend. Open the laravel project & 
 
