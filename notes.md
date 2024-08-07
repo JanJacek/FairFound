@@ -4,8 +4,9 @@ Let's start codeing!
 - Create db
     - `docker run --name your_db_name -e MYSQL_ROOT_PASSWORD=your_password -p 3306:3306 -d mariadb`
 
-- Create directory for the project and then laravelm and quasar projects
+- Create directory for the project and then laravel and quasar projects
     - `laravel new projectName`
+    - Add sanctum `php artisan install:api`
         - setup: basic project
     - `yarn create quasar`
         - setup: 
@@ -15,7 +16,6 @@ Let's start codeing!
            - vite
            - eslint
            - pritier
-
 - Connect to the db
     - go to the .env file and filed properly values ex
     "
@@ -37,7 +37,7 @@ PUSHER_SCHEME=https
 PUSHER_APP_CLOUSTER=mt1
 `
 
-Now is time to setup the API at the backend. Open the laravel project & 
+Now is time to setup the API at the backend. Open the laravel project & lets create new controller 
 
 <!-- Sources -->
 Sources:
